@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taparudra Sikdar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Taparudra</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm</h2>
+            <h1>Taparudra Sikdar</h1>
+            <p>3rd Year Student | AI & Tech Enthusiast</p>
+            <button onclick="sayHello()">Explore More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <article id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a 3rd year Computer Science student passionate about building
+            powerful tech solutions. Currently diving deep into AI & Machine Learning.
+            I aim to create impactful innovations in the tech world.
+        </p>
+    </article>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-box">Python</div>
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">C</div>
+            <div class="skill-box">C++</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">AI/ML (Learning)</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="error" style="color:red;"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Taparudra Sikdar | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
